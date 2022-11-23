@@ -1,0 +1,62 @@
+/* common */
+
+body {
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
+}
+
+img {
+  vertical-align: bottom;
+}
+
+.container {
+  margin: 0 16px;
+  outline: 2px solid red;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: opacity .3s;
+}
+
+a:hover {
+  opacity: .5;
+}
+
+/* header */
+
+header {
+  background: #4EA5D9;
+  padding: 8px 0;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header li a {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  text-align: center;
+}
+
+header li i {
+  font-size: 20px;
+}
+
+h2 {
+  margin: 0;
+}
