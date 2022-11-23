@@ -26,17 +26,17 @@ ul {
 a {
   text-decoration: none;
   color: inherit;
-  transition: opacity .3s;
+  transition: opacity 0.3s;
 }
 
 a:hover {
-  opacity: .5;
+  opacity: 0.5;
 }
 
 /* header */
 
 header {
-  background: #4EA5D9;
+  background: #4ea5d9;
   padding: 8px 0;
 }
 
@@ -62,46 +62,55 @@ h2 {
 }
 
 .open {
-	cursor:pointer; /* マウスオーバーでカーソルの形状を変えることで、クリックできる要素だとわかりやすいように */
+  cursor: pointer; /* マウスオーバーでカーソルの形状を変えることで、クリックできる要素だとわかりやすいように */
 }
 #pop-up {
-	display: none; /* label でコントロールするので input は非表示に */
+  display: none; /* label でコントロールするので input は非表示に */
 }
 .overlay {
-	display: none; /* input にチェックが入るまでは非表示に */
+  display: none; /* input にチェックが入るまでは非表示に */
 }
 #pop-up:checked + .overlay {
-	display: block;
-	z-index: 9999;
-	background-color: #00000070;
-	position: fixed;
-	width: 100%;
-	height: 100vh;
-	top: 0;
-	left: 0;
+  display: block;
+  z-index: 9999;
+  background-color: #00000070;
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
 }
 .window {
-	width: 90vw;
-	max-width: 380px;
-	height: 240px;
-	background-color: #ffffff;
-	border-radius: 6px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	position: fixed;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+  width: 90vw;
+  max-width: 380px;
+  height: 240px;
+  background-color: #ffffff;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .text {
-	font-size: 18px;
-	margin: 0;
+  font-size: 18px;
+  margin: 0;
 }
 .close {
-	cursor:pointer;
-	position: absolute;
-	top: 4px;
-	right: 4px;
-	font-size: 20px;
+  cursor: pointer;
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  font-size: 20px;
+}
+
+.box {
+  text-align: center;
+  line-height: 600px;
+}
+
+.box span {
+  font-size: 45px;
 }
